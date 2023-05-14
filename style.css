@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(248, 225, 225)
+}
+.clock{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+    background: linear-gradient(120deg, #f9fd01, #04f3e7);
+    padding: 20px;
+}
+.clock div{
+    display: flex;
+    height: 170px;
+    width: 150px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    color: #fff;
+    background: rgba(5, 5, 5, .9);
+    letter-spacing: 3px;
+    box-shadow: 5px 5px 15px rgba (0,0,0,.7);
+    border-radius: 7px;
+}
+.clock span{
+    font-weight: bolder;
+    font-size: 60px;
+}
+.clock span.time{
+    font-size: 10px;
+}
